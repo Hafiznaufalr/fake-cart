@@ -1,0 +1,423 @@
+{
+    "status_code": 200,
+    "message": "Success get data",
+    "success": true,
+    "data": [
+        {
+            "id": 1,
+            "id_user": 1,
+            "id_product": 2,
+            "id_varian": 1,
+            "qty": 12,
+            "active": 1,
+            "created_at": "2021-01-29T17:11:16.000000Z",
+            "updated_at": "2021-01-29T17:11:16.000000Z",
+            "product_details": [
+                {
+                    "brand_id": 1,
+                    "category_name": "kemeja",
+                    "id": 2,
+                    "name": "hehehe",
+                    "description": "xddd",
+                    "sell_system": "normal",
+                    "po_exp": null,
+                    "avail_estimation": null,
+                    "down_pay": null,
+                    "active": 1,
+                    "weight": 3,
+                    "created_at": "2021-01-29T17:11:36.000000Z",
+                    "updated_at": "2021-01-29T17:11:36.000000Z",
+                    "varians": [
+                        {
+                            "id": 5,
+                            "name": "S",
+                            "sku": "SKU-12",
+                            "id_product": 2,
+                            "id_varian": 1,
+                            "stock": 50,
+                            "price_retail": 200000,
+                            "price_reseller": 100000,
+                            "price_agen": 5000,
+                            "price_subagen": 1000,
+                            "created_at": "2021-01-29 17:11:36",
+                            "updated_at": "2021-01-29 17:11:36",
+                            "varian_name": "color"
+                        },
+                        {
+                            "id": 6,
+                            "name": "M",
+                            "sku": "SKU-122",
+                            "id_product": 2,
+                            "id_varian": 1,
+                            "stock": 50,
+                            "price_retail": 200000,
+                            "price_reseller": 100000,
+                            "price_agen": 5000,
+                            "price_subagen": 1000,
+                            "created_at": "2021-01-29 17:11:36",
+                            "updated_at": "2021-01-29 17:11:36",
+                            "varian_name": "color"
+                        },
+                        {
+                            "id": 7,
+                            "name": "red",
+                            "sku": "SKU-1212",
+                            "id_product": 2,
+                            "id_varian": 2,
+                            "stock": 50,
+                            "price_retail": 200000,
+                            "price_reseller": 100000,
+                            "price_agen": 5000,
+                            "price_subagen": 1000,
+                            "created_at": "2021-01-29 17:11:36",
+                            "updated_at": "2021-01-29 17:11:36",
+                            "varian_name": "size"
+                        },
+                        {
+                            "id": 8,
+                            "name": "blue",
+                            "sku": "SKU-111112",
+                            "id_product": 2,
+                            "id_varian": 2,
+                            "stock": 50,
+                            "price_retail": 200000,
+                            "price_reseller": 100000,
+                            "price_agen": 5000,
+                            "price_subagen": 1000,
+                            "created_at": "2021-01-29 17:11:36",
+                            "updated_at": "2021-01-29 17:11:36",
+                            "varian_name": "size"
+                        }
+                    ],
+                    "all_stock": "200",
+                    "brand_detail": {
+                        "id": 1,
+                        "name": "la viola"
+                    },
+                    "assets": [
+                        {
+                            "id": 2,
+                            "id_product": 2,
+                            "url": "product-601441c8a522e1.PNG.PNG",
+                            "type": "image",
+                            "created_at": "2021-01-29 17:11:36",
+                            "updated_at": "2021-01-29 17:11:36"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "id_user": 1,
+            "id_product": 2,
+            "id_varian": 1,
+            "qty": 12,
+            "active": 1,
+            "created_at": "2021-01-29T17:11:19.000000Z",
+            "updated_at": "2021-01-29T17:11:19.000000Z",
+            "product_details": [
+                {
+                    "brand_id": 1,
+                    "category_name": "kemeja",
+                    "id": 2,
+                    "name": "hehehe",
+                    "description": "xddd",
+                    "sell_system": "normal",
+                    "po_exp": null,
+                    "avail_estimation": null,
+                    "down_pay": null,
+                    "active": 1,
+                    "weight": 3,
+                    "created_at": "2021-01-29T17:11:36.000000Z",
+                    "updated_at": "2021-01-29T17:11:36.000000Z",
+                    "varians": [
+                        {
+                            "id": 5,
+                            "name": "S",
+                            "sku": "SKU-12",
+                            "id_product": 2,
+                            "id_varian": 1,
+                            "stock": 50,
+                            "price_retail": 200000,
+                            "price_reseller": 100000,
+                            "price_agen": 5000,
+                            "price_subagen": 1000,
+                            "created_at": "2021-01-29 17:11:36",
+                            "updated_at": "2021-01-29 17:11:36",
+                            "varian_name": "color"
+                        },
+                        {
+                            "id": 6,
+                            "name": "M",
+                            "sku": "SKU-122",
+                            "id_product": 2,
+                            "id_varian": 1,
+                            "stock": 50,
+                            "price_retail": 200000,
+                            "price_reseller": 100000,
+                            "price_agen": 5000,
+                            "price_subagen": 1000,
+                            "created_at": "2021-01-29 17:11:36",
+                            "updated_at": "2021-01-29 17:11:36",
+                            "varian_name": "color"
+                        },
+                        {
+                            "id": 7,
+                            "name": "red",
+                            "sku": "SKU-1212",
+                            "id_product": 2,
+                            "id_varian": 2,
+                            "stock": 50,
+                            "price_retail": 200000,
+                            "price_reseller": 100000,
+                            "price_agen": 5000,
+                            "price_subagen": 1000,
+                            "created_at": "2021-01-29 17:11:36",
+                            "updated_at": "2021-01-29 17:11:36",
+                            "varian_name": "size"
+                        },
+                        {
+                            "id": 8,
+                            "name": "blue",
+                            "sku": "SKU-111112",
+                            "id_product": 2,
+                            "id_varian": 2,
+                            "stock": 50,
+                            "price_retail": 200000,
+                            "price_reseller": 100000,
+                            "price_agen": 5000,
+                            "price_subagen": 1000,
+                            "created_at": "2021-01-29 17:11:36",
+                            "updated_at": "2021-01-29 17:11:36",
+                            "varian_name": "size"
+                        }
+                    ],
+                    "all_stock": "200",
+                    "brand_detail": {
+                        "id": 1,
+                        "name": "la viola"
+                    },
+                    "assets": [
+                        {
+                            "id": 2,
+                            "id_product": 2,
+                            "url": "product-601441c8a522e1.PNG.PNG",
+                            "type": "image",
+                            "created_at": "2021-01-29 17:11:36",
+                            "updated_at": "2021-01-29 17:11:36"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "id_user": 1,
+            "id_product": 1,
+            "id_varian": 2,
+            "qty": 2,
+            "active": 1,
+            "created_at": "2021-01-30T15:28:41.000000Z",
+            "updated_at": "2021-01-30T15:28:41.000000Z",
+            "product_details": [
+                {
+                    "brand_id": 1,
+                    "category_name": "kemeja",
+                    "id": 1,
+                    "name": "hehehe",
+                    "description": "xddd",
+                    "sell_system": "normal",
+                    "po_exp": null,
+                    "avail_estimation": null,
+                    "down_pay": null,
+                    "active": 1,
+                    "weight": 3,
+                    "created_at": "2021-01-29T17:11:34.000000Z",
+                    "updated_at": "2021-01-29T17:11:34.000000Z",
+                    "varians": [
+                        {
+                            "id": 1,
+                            "name": "S",
+                            "sku": "SKU-12",
+                            "id_product": 1,
+                            "id_varian": 1,
+                            "stock": 50,
+                            "price_retail": 200000,
+                            "price_reseller": 100000,
+                            "price_agen": 5000,
+                            "price_subagen": 1000,
+                            "created_at": "2021-01-29 17:11:34",
+                            "updated_at": "2021-01-29 17:11:34",
+                            "varian_name": "color"
+                        },
+                        {
+                            "id": 2,
+                            "name": "M",
+                            "sku": "SKU-122",
+                            "id_product": 1,
+                            "id_varian": 1,
+                            "stock": 50,
+                            "price_retail": 200000,
+                            "price_reseller": 100000,
+                            "price_agen": 5000,
+                            "price_subagen": 1000,
+                            "created_at": "2021-01-29 17:11:34",
+                            "updated_at": "2021-01-29 17:11:34",
+                            "varian_name": "color"
+                        },
+                        {
+                            "id": 3,
+                            "name": "red",
+                            "sku": "SKU-1212",
+                            "id_product": 1,
+                            "id_varian": 2,
+                            "stock": 50,
+                            "price_retail": 200000,
+                            "price_reseller": 100000,
+                            "price_agen": 5000,
+                            "price_subagen": 1000,
+                            "created_at": "2021-01-29 17:11:34",
+                            "updated_at": "2021-01-29 17:11:34",
+                            "varian_name": "size"
+                        },
+                        {
+                            "id": 4,
+                            "name": "blue",
+                            "sku": "SKU-111112",
+                            "id_product": 1,
+                            "id_varian": 2,
+                            "stock": 50,
+                            "price_retail": 200000,
+                            "price_reseller": 100000,
+                            "price_agen": 5000,
+                            "price_subagen": 1000,
+                            "created_at": "2021-01-29 17:11:34",
+                            "updated_at": "2021-01-29 17:11:34",
+                            "varian_name": "size"
+                        }
+                    ],
+                    "all_stock": "200",
+                    "brand_detail": {
+                        "id": 1,
+                        "name": "la viola"
+                    },
+                    "assets": [
+                        {
+                            "id": 1,
+                            "id_product": 1,
+                            "url": "product-601441c659a4c1.PNG.PNG",
+                            "type": "image",
+                            "created_at": "2021-01-29 17:11:34",
+                            "updated_at": "2021-01-29 17:11:34"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "id_user": 1,
+            "id_product": 1,
+            "id_varian": 2,
+            "qty": 2,
+            "active": 1,
+            "created_at": "2021-01-30T15:28:44.000000Z",
+            "updated_at": "2021-01-30T15:28:44.000000Z",
+            "product_details": [
+                {
+                    "brand_id": 1,
+                    "category_name": "kemeja",
+                    "id": 1,
+                    "name": "hehehe",
+                    "description": "xddd",
+                    "sell_system": "normal",
+                    "po_exp": null,
+                    "avail_estimation": null,
+                    "down_pay": null,
+                    "active": 1,
+                    "weight": 3,
+                    "created_at": "2021-01-29T17:11:34.000000Z",
+                    "updated_at": "2021-01-29T17:11:34.000000Z",
+                    "varians": [
+                        {
+                            "id": 1,
+                            "name": "S",
+                            "sku": "SKU-12",
+                            "id_product": 1,
+                            "id_varian": 1,
+                            "stock": 50,
+                            "price_retail": 200000,
+                            "price_reseller": 100000,
+                            "price_agen": 5000,
+                            "price_subagen": 1000,
+                            "created_at": "2021-01-29 17:11:34",
+                            "updated_at": "2021-01-29 17:11:34",
+                            "varian_name": "color"
+                        },
+                        {
+                            "id": 2,
+                            "name": "M",
+                            "sku": "SKU-122",
+                            "id_product": 1,
+                            "id_varian": 1,
+                            "stock": 50,
+                            "price_retail": 200000,
+                            "price_reseller": 100000,
+                            "price_agen": 5000,
+                            "price_subagen": 1000,
+                            "created_at": "2021-01-29 17:11:34",
+                            "updated_at": "2021-01-29 17:11:34",
+                            "varian_name": "color"
+                        },
+                        {
+                            "id": 3,
+                            "name": "red",
+                            "sku": "SKU-1212",
+                            "id_product": 1,
+                            "id_varian": 2,
+                            "stock": 50,
+                            "price_retail": 200000,
+                            "price_reseller": 100000,
+                            "price_agen": 5000,
+                            "price_subagen": 1000,
+                            "created_at": "2021-01-29 17:11:34",
+                            "updated_at": "2021-01-29 17:11:34",
+                            "varian_name": "size"
+                        },
+                        {
+                            "id": 4,
+                            "name": "blue",
+                            "sku": "SKU-111112",
+                            "id_product": 1,
+                            "id_varian": 2,
+                            "stock": 50,
+                            "price_retail": 200000,
+                            "price_reseller": 100000,
+                            "price_agen": 5000,
+                            "price_subagen": 1000,
+                            "created_at": "2021-01-29 17:11:34",
+                            "updated_at": "2021-01-29 17:11:34",
+                            "varian_name": "size"
+                        }
+                    ],
+                    "all_stock": "200",
+                    "brand_detail": {
+                        "id": 1,
+                        "name": "la viola"
+                    },
+                    "assets": [
+                        {
+                            "id": 1,
+                            "id_product": 1,
+                            "url": "product-601441c659a4c1.PNG.PNG",
+                            "type": "image",
+                            "created_at": "2021-01-29 17:11:34",
+                            "updated_at": "2021-01-29 17:11:34"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
